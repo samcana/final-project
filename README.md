@@ -53,26 +53,37 @@ The first iteration of the script took an input from the user with the name of a
 In its current standing, the script returns a random recipe. It would be good to add more consideration for the user's interests (i.e. showing recipes similar to what they have tried before, or which they are more likely to enjoy).
 
 ## Logistic Regression & Clustering
-ghg
-h
-gh
-g
-g
-hg
-h
-g
-h
+
+I decided to explore the data further and wanted to find out: are certain combinations of ingredients more typical to certain cuisines. Could a Machine Learning model predict what cuisine a recipe belongs to based off its ingredients?
+
+After encoding the ingredients into a format that the algorithm could work with, I ran the Logistic Regression model from SK Learn. The result was a low 0.42. The 'noise' in the data may have gotten in the way of the model I suspect there are still issues with the cleaning (especially in the format of the ingredients). Plus, having so many similar types of cuisine (such as the regions of India) probably made predictions difficult
+
+![log-reg](https://github.com/samcana/final-project/blob/main/images/logistic%20regression.png)
+
+I moved on to Clustering, to see if similarities could be found between on the ingredients (or the strings that are found in each row of ingredients). I used DictVectorier to perform 'One Hot Encoding' on the strings found in the ingredients of the dataset.
+
+I then tried to use Principal Component Analysis (PCA) to try and reduce the large number of dimensions in the dataset, but at the same time maintaining the most relevant correlations. Due to the sheer number of varied cuisines in the dataset, I focused on 10 of the most popular cuisines for comparison.
+
+In the first iteration there are no hard and fast 'clusters', but we see some vague correlation between, for example 'Italian' and 'Continental', and 'Tamil Nadu' and 'South Indian':
+
+![cluster](https://github.com/samcana/final-project/blob/main/images/Screenshot%202021-05-19%20at%2023.24.32.png)
+
+Next I tried to use t-SNE - [t-Distributed Stochastic Neighbor Embedding](https://www.youtube.com/watch?v=NEaUSP4YerM) (some very complex maths that is beyond me...but I let Python deal with).
+
+We can see that clusters are getting slightly more clear, but the results are still not amazing. I suspect this is down to the cleaning and similarity issues mentioned before.
+
+[tsne](https://github.com/samcana/final-project/blob/main/images/t-sne.png)
 
 ## Next Steps
 
-fh
-fgh
-fgh
-fgh
-fg
-hfg
-hfg
-h
+For future iterations I would like to go back over the cleaning steps with the data (or even opt for a larger, more reliable dataset). Mainly to ensure consistency in the ingredients, and more variety in the cuisine types. Once clusters of recipes are more accurately defined, the ambition would be to have a recipe recommender that suggests a recipe based on its cluster (and also the dietary needs/preferences of the user)
+
 
 ## Links
+
+[Presentation](https://docs.google.com/presentation/d/15ReH73ckD4kU4OfbE6p0_4IH5iOdUybCF8ErZlP1mZI/edit#slide=id.g59d6898307_0_0)
+
+[Notebooks](https://github.com/samcana/final-project/tree/main/notebooks)
+
+[Tableau](https://public.tableau.com/views/Recipes_Final_Project/AvgNoIngredientsTimeTaken?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
 
