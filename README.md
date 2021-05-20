@@ -1,5 +1,5 @@
 
-## Final Project at IronHack Data Analytics Bootcamp
+## Final Project, IronHack Data Analytics Bootcamp
 May, 2021
 
 ## Content
