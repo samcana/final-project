@@ -32,9 +32,17 @@ What turned out to be more of a challenge was the language used in the recipes. 
 
 ## EDA
 
+Unsurprisingly as the data is from India, most of the recipes are Indian. Delicious! Confusingly the most common cuisine type is 'Indian', despite a lot of recipes being split into regions of India lower down.
 
+![img](https://github.com/samcana/final-project/blob/main/images/cuisine%20dist%20with%20code.png?raw=true|width=200px)
 
+The most mentioned ingredients throughout the recipes are salt, sunflower oil, garlic and turmeric powder. So always keep them in your cupboard.
 
+![img](https://github.com/samcana/final-project/blob/main/images/Screenshot%202021-05-19%20at%2015.21.09.png?raw=true|width=200px)
+
+I also looked at the most common ingredients in different types of cuisine. Again not a shock that for Italian food, olive oil (and extra virgin olive oil) are the most important. For South Indian cuisine, the most used ingredients are dal (a general term for all split pulses, I believe) and curry leaves.
+
+![img](https://github.com/samcana/final-project/blob/main/images/common%20ingredients%20per%20cuisine.png?raw=true)
 
 
 ghg
