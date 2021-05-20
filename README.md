@@ -8,7 +8,7 @@ May, 2021
 - [Data & Cleaning](#data--cleaning)
 - [EDA](#EDA)
 - [The Function](#the-function)
-- [Logistic Regression & Clustering](#logistic-regression---clustering)
+- [Logistic Regression & Clustering](#logistic-regression--clustering)
 - [Next Steps](#next-steps)
 - [Links](#links)
 
@@ -46,24 +46,11 @@ I also looked at the most common ingredients in different types of cuisine. Agai
 
 ![img](https://github.com/samcana/final-project/blob/main/images/common%20ingredients%20per%20cuisine.png?raw=true)
 
-
-ghg
-g
-h
-gh
-gh
-gh
-gh
-gh
-g
-h
-
-
 ## The Function
 
-The first iteration of the script took an input from the user with the name of an ingredient. It then used .str.contains on the ingredients column of the dataset, and returned a recipe that contained the inputted ingredient. The next iteration asked for a 2nd ingredient as well the amount of time that the user has available for cooking. Based on '&' and '<=' operators, the script returns a recipe that features the 2 inputted ingredients, and whose total prep/cooking time is equal to or less than the amount of time that the user inputted
+The first iteration of the script took an input from the user with the name of an ingredient. It then used .str.contains on the ingredients column of the dataset, and returned a recipe that contained the inputted ingredient. The next iteration asked for a 2nd ingredient as well the amount of time that the user has available for cooking. Based on '&' and '<=' operators, the script returns a recipe that features the 2 inputted ingredients, and whose total prep/cooking time is equal to or less than the amount of time that the user inputted.
 
-
+In its current standing, the script returns a random recipe. It would be good to add more consideration for the user's interests (i.e. showing recipes similar to what they have tried before, or which they are more likely to enjoy).
 
 ## Logistic Regression & Clustering
 ghg
