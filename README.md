@@ -81,7 +81,7 @@ For future iterations I would like to go back over the cleaning steps with the d
 
 ## Links
 
-[Presentation](https://docs.google.com/presentation/d/15ReH73ckD4kU4OfbE6p0_4IH5iOdUybCF8ErZlP1mZI/edit#slide=id.g59d6898307_0_0)
+[Presentation Slides](https://docs.google.com/presentation/d/16T8eqd4FB_QdyFFPViui57_d7QNLwv7HQO5QZsVXfp8/edit?usp=sharing)
 
 [Notebooks](https://github.com/samcana/final-project/tree/main/notebooks)
 
