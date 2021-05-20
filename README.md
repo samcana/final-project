@@ -9,7 +9,7 @@ May, 2021
 - [The Function](#the-function)
 - [Clustering](#clustering)
 - [Next Steps](#next-steps)
-- [Links, Tableau & Slides](#links---tableau--slides)
+- [Links](#links)
 
 ## Project Outline
 
@@ -84,5 +84,5 @@ hfg
 hfg
 h
 
-## Links, Tableau & Slides
+## Links
 
