@@ -61,23 +61,11 @@ h
 
 ## The Function
 
-(i.e. a recipe that features the 2 inputted ingredients, and whose total prep/cooking time is equal to or less than the amount of time that the 
-
-
-gh
-g
-hg
-h
-gh
-gh
-gh
-gh
-g
-hg
+The first iteration of the script took an input from the user with the name of an ingredient. It then used .str.contains on the ingredients column of the dataset, and returned a recipe that contained the inputted ingredient. The next iteration asked for a 2nd ingredient as well the amount of time that the user has available for cooking. Based on '&' and '<=' operators, the script returns a recipe that features the 2 inputted ingredients, and whose total prep/cooking time is equal to or less than the amount of time that the user inputted
 
 
 
-## Clustering
+## Logistic Regression & Clustering
 ghg
 h
 gh
