@@ -72,7 +72,7 @@ Next I tried to use t-SNE - [t-Distributed Stochastic Neighbor Embedding](https:
 
 We can see that clusters are getting slightly more clear, but the results are still not amazing. I suspect this is down to the cleaning and similarity issues mentioned before.
 
-[tsne](https://github.com/samcana/final-project/blob/main/images/t-sne.png)
+![tsne](https://github.com/samcana/final-project/blob/main/images/t-sne.png)
 
 ## Next Steps
 
