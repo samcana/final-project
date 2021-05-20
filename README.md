@@ -8,7 +8,7 @@ May, 2021
 - [Data & Cleaning](#data--cleaning)
 - [EDA](#EDA)
 - [The Function](#the-function)
-- [Logistic Regression & Clustering](#logistic-regression--clustering)
+- [Logistic Regression & Clustering](#logistic-regression---clustering)
 - [Next Steps](#next-steps)
 - [Links](#links)
 
