@@ -8,7 +8,7 @@ May, 2021
 - [Data & Cleaning](#data--cleaning)
 - [EDA](#EDA)
 - [The Function](#the-function)
-- [Clustering](#clustering)
+- [Logistic Regression & Clustering](#logistic-regression--clustering)
 - [Next Steps](#next-steps)
 - [Links](#links)
 
@@ -16,7 +16,9 @@ May, 2021
 
 I started with a simple question: can we use a Python script to make recipe suggestions based on the ingredients available to a user, and the amount of time they have? Python returns a random recipe based on the user input ([more below](https://github.com/samcana/final-project/edit/main/README.md#the-function))
 
-As the results turned to be quite random, I decided to look again at the dataset and the associations that could be drawn within it. Are certain ingredients more typical to certain cuisines? Are certain cuisine types 'closer' to each other, and can we use Clustering to calculate which cuisine types have more similarities, based on their ingredients?
+As the results turned to be quite random, I decided to look again at the dataset and the associations that could be drawn within it. Are certain ingredients more typical to certain cuisines? Can we use Machine Learning to predict which cuisine a recipe belongs to, based on ingredients?
+
+Are certain cuisine types 'closer' to each other, and can we use Clustering to calculate which cuisine types have more similarities, based on their ingredients?
 
 ![Recipe slide](https://github.com/samcana/final-project/blob/main/images/Recipe%20Picker%20-%20First%20Elevator%20Pitch.png?raw=true)
 
