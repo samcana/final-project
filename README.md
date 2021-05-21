@@ -74,6 +74,10 @@ We can see that clusters are getting slightly more clear, but the results are st
 
 ![tsne](https://github.com/samcana/final-project/blob/main/images/t-sne.png)
 
+There is some amount of overlap visible between Tamil Nadu, Karnataka, and Kerala (as well as 'South India'). Looking at a map, those regions are close together in Southern India. It would make sense that their cuisines share similarities due to the ingredients typical in those regions.
+
+![india](https://github.com/samcana/final-project/blob/main/images/Screenshot%202021-05-20%20at%2020.58.50.png?raw=true)
+
 ## Next Steps
 
 For future iterations I would like to go back over the cleaning steps with the data (or even opt for a larger, more reliable dataset). Mainly to ensure consistency in the ingredients, and more variety in the cuisine types. Once clusters of recipes are more accurately defined, the ambition would be to have a recipe recommender that suggests a recipe based on its cluster (and also the dietary needs/preferences of the user)
